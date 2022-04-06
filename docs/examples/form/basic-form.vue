@@ -3,12 +3,6 @@
     <el-form-item label="Activity name">
       <el-input v-model="form.name" />
     </el-form-item>
-    <el-form-item label="Activity zone">
-      <el-select v-model="form.region" placeholder="please select your zone">
-        <el-option label="Zone one" value="shanghai" />
-        <el-option label="Zone two" value="beijing" />
-      </el-select>
-    </el-form-item>
     <el-form-item label="Activity time">
       <el-col :span="11">
         <el-date-picker
