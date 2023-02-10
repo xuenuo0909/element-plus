@@ -5,7 +5,10 @@
       :key="item.value"
       :label="item.label"
       :value="item.value"
-    />
+    >
+      			<el-radio v-model="item.value">{{ item.label }}</el-radio>
+
+    </el-option>
   </el-select>
   <el-select v-model="value" class="m-2" placeholder="Select">
     <el-option
