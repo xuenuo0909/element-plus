@@ -6,6 +6,7 @@
       :zoom-rate="1.2"
       :preview-src-list="srcList"
       :initial-index="4"
+      hide-on-click-modal
       fit="cover"
     />
   </div>
